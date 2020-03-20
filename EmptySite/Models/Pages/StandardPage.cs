@@ -26,5 +26,13 @@ namespace EmptySite.Models.Pages
             Order = 1)]
         public virtual XhtmlString MainBody { get; set; }
 
+        [CultureSpecific]
+        [Display(
+            Name = "Paragraph",
+            Description = "This is a paragraph section.",
+            GroupName = SystemTabNames.Content,
+            Order = 2)]
+        public virtual XhtmlString Paragraph { get; set; }
+
     }
 }
