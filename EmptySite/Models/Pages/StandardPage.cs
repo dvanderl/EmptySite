@@ -33,6 +33,10 @@ namespace EmptySite.Models.Pages
             GroupName = SystemTabNames.Content,
             Order = 2)]
         public virtual XhtmlString Paragraph { get; set; }
+        //public virtual LinkItemCollection RelatedContentLinks { get; set; }
+
+        //[CultureSpecific]
+        //public virtual LinkItemCollection RelatedContentLinks { get; set;  }
 
     }
 }
